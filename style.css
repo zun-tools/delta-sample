@@ -1,0 +1,61 @@
+:root {
+  --zunda: #7cb342;
+  --zunda-dark: #558b2f;
+  --paper: #fffdf5;
+  --ink: #333;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+header {
+  background: var(--zunda);
+  color: #fff;
+  padding: 16px 24px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.notice {
+  margin: 8px 0 0;
+  font-size: 0.95rem;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px 24px;
+}
+
+.recommend {
+  border: 2px solid var(--zunda);
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  background: #fff;
+  border-left: 4px solid var(--zunda);
+  border-radius: 4px;
+}
+
+.menu-price {
+  color: var(--zunda-dark);
+  font-weight: bold;
+}
